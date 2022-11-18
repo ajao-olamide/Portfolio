@@ -18,7 +18,9 @@
       <div>
         <h1>The Frontend Olamide.</h1>
       </div>
-      <input class="checkbox" type="checkbox" />
+      
+      <input class="checkbox" type="checkbox" data-toggle="collapse"
+      data-target="#target" />
       <div class="mother-div">
         <div class="white-line"></div>
       </div>
@@ -231,112 +233,83 @@
     <section id="contact" class="fourth-section">
       <p style="color: #eba232">Get In Touch</p>
       <h2 style="color: #eba232">Contact Me</h2>
-      <p>interesting in working together? let'd do this</p>
+      <p>interesting in working together? let do this</p>
       <div class="form-div">
         <form
           action="https://getform.io/f/4558924b-1989-4ed9-9da2-65afe1cb9a04"
           method="post"
         >
-          <label style="color: #eba232" for="">First Name</label>
-          <br />
-          <input
+        <div style="width: 100%;">  <label style="color: #eba232" for="">First Name</label>
+          
+          <input 
             required
-            style="
-              border-radius: 6px;
-              border: none;
-              height: 30px;
-              margin-bottom: 8px;
-            "
+            class="white-input"
             type="text"
             name="first-name"
-          />
+          /></div>
 
-          <label style="color: #eba232" for="">last Name</label>
-          <br />
-          <input
+          <div style="width: 100%;"><label style="color: #eba232" for="">last Name</label>
+         
+            <input 
+              required
+              class="white-input"
+              type="text"
+              name="last-name"
+            />
+  </div>
+        <div style="width: 100%;">  <label style="color: #eba232" for="">Email</label>
+         
+          <input 
             required
-            style="
-              border-radius: 6px;
-              border: none;
-              height: 30px;
-              margin-bottom: 8px;
-            "
-            type="text"
-            name="last-name"
-          />
-
-          <label style="color: #eba232" for="">Email</label>
-          <br />
-          <input
-            required
-            style="
-              border-radius: 6px;
-              border: none;
-              height: 30px;
-              margin-bottom: 8px;
-            "
+            class="white-input"
             type="email"
             name="Email"
             id=""
-          />
+          /></div>
 
-          <label style="color: #eba232" for="">Phone Number </label>
-          <br />
-          <input
-            required
-            style="
-              border-radius: 6px;
-              border: none;
-              height: 30px;
-              margin-bottom: 8px;
-            "
-            type="tel"
-            name="phone number"
-            id=""
-          />
-
-          <label style="color: #eba232" for="">Message</label>
-          <br />
-          <textarea
-            required
-            style="
-              border-radius: 6px;
-              border: none;
-              margin-bottom: 18px;
-              width: 95%;
-            "
-            name="Message"
-            id=""
-            cols="30"
-            rows="10"
-          ></textarea>
-
-          <div style="display: flex; gap: 1em">
-            <input
-              style="width: 20px; margin-bottom: 18px"
-              type="checkbox"
-              name="checkbox"
+          <div style="width: 100%;"><label style="color: #eba232" for="">Phone Number </label>
+         
+            <input 
               required
+              class="white-input"
+              type="tel"
+              name="phone number"
               id=""
             />
-            <label for="checkbox">I accept the terms</label>
-          </div>
+  </div>
+          <div style="width: 100%;"><label style="color: #eba232" for="">Message</label>
+        
+            <textarea
+              required
+              style="
+                border-radius: 6px;
+                border: none;
+            background: #eba232;
+                width: 95%;
+              "
+              name="Message"
+              id=""
+              cols="30"
+              rows="10"
+            ></textarea></div>
 
-          <input
-            style="
-              width: 200px !important;
-              height: 50px;
-              font-size: 18px;
-              padding: 15px;
-              border-radius: 10px;
-              border: none;
-              color: #000;
-              background: #eba232;
-              margin: 0px 0;
-            "
-            type="submit"
-            value="Submit"
-          />
+         
+
+       <div style="width: 100%;">   <input
+        style="
+          width: 200px !important;
+          height: 50px;
+          font-size: 18px;
+          padding: 15px;
+          border-radius: 10px;
+          border: none;
+          color: #000;
+          background: #eba232;
+          
+        "
+        type="submit"
+        value="Submit"
+      /></div>
         </form>
       </div>
     </section>

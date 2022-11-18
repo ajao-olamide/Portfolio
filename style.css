@@ -175,6 +175,21 @@ footer h1{
     flex-direction: column;
     gap: 1em;
 }
+.white-input{
+  border-radius: 6px;
+  background: #eba232;
+  border: none;
+  padding: 10px;
+  border-top: none !important;
+  border: #000 solid 3px;
+  height: 30px;
+}
+
+form{
+  gap: 10px;
+  width: 90%;
+}
+
 @media (max-width: 800px) {
   .checkbox:checked + .mother-div .white-line {
     transform: rotate(135deg);
